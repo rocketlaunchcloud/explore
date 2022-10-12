@@ -9,12 +9,12 @@ Gem::Specification.new do |spec|
   spec.email = ["mattsolt@gmail.com"]
 
   spec.summary = "Explore a website."
-  spec.description = "Explore a website."
+  spec.description = "Explore all website metadata."
   spec.homepage = "https://github.com/rocketlaunchcloud/explore"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.0.0"
 
-  # spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
+  spec.metadata["allowed_push_host"] = "https://github.com/rocketlaunchcloud/explore"
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/rocketlaunchcloud/explore"
