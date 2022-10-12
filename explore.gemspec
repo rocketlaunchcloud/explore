@@ -14,8 +14,6 @@ Gem::Specification.new do |spec|
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.0.0"
 
-  spec.metadata["allowed_push_host"] = "https://github.com/rocketlaunchcloud/explore"
-
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/rocketlaunchcloud/explore"
   spec.metadata["changelog_uri"] = "https://github.com/rocketlaunchcloud/explore/blob/main/CHANGELOG.md"
