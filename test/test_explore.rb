@@ -12,4 +12,15 @@ class TestExplore < Minitest::Test
       Explore.new
     end
   end
+
+  def test_returns_a_site_instance_with_valid_input
+    site = Explore.new("https://www.google.com/")
+    assert_equal site.class, Explore::Site
+  end
+
+  def test_requires_a_valid_http_uri
+    assert_raises Explore::Error do
+      Explore.new("ftp://www.google.com/")
+    end
+  end
 end
